@@ -10,3 +10,10 @@
     align-items: center;
     display: flex;
 }
+.row1{
+    margin-left: 1rem;
+}
+
+.row2{
+    margin-top: 1rem;
+}

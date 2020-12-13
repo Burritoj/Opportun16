@@ -58,7 +58,7 @@
     align-items: center;
     font-size: 15px;
 }
-.row1{
+.treerow{
     align-items: center;
 }
 .placeholder{
@@ -73,22 +73,15 @@
     height: 2px;
     width: 330px;
 }
-.placeholder1row1{
+.placeholder1treerow{
     height: 2px;
     width: 278px;
 }
-.placeholder2row1{
+.placeholder2treerow{
     height: 2px;
     width: 360px;
 }
-.placeholder3row1{
+.placeholder3treerow{
     height: 2px;
     width: 238px;
-}
-.row1{
-    margin-left: 1rem;
-}
-
-.row2{
-    margin-top: 1rem;
 }

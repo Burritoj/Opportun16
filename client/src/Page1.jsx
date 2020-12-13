@@ -317,7 +317,7 @@ export function Page1(props){
                 </div>
               </Col>
             </Row>
-            <Row className="row1">
+            <Row className="treerow">
              <Col>
                 <Row fluid="1">
                     <Card style={{  textAlign: 'center', borderColor: 'transparent', elevation: 0 }} className="newCard" ></Card>
@@ -342,8 +342,8 @@ export function Page1(props){
                         </CardGroup>
                     </Card>
                 </Row>
-                <Row className="row1">
-                        <Card style={{  textAlign: 'center', borderColor: 'transparent', elevation: 0 }} className="placeholder1row1" ></Card>   
+                <Row className="treerow">
+                        <Card style={{  textAlign: 'center', borderColor: 'transparent', elevation: 0 }} className="placeholder1treerow" ></Card>   
                         <Card style={{  textAlign: 'center' }} className="newCard" >
                         <Card.Header as="h5"  className="font1">Primary Risk</Card.Header>
                             <CardGroup>
@@ -363,7 +363,7 @@ export function Page1(props){
                                 </Card>
                             </CardGroup>
                         </Card>
-                        <Card style={{  textAlign: 'center', borderColor: 'transparent', elevation: 0 }} className="placeholder2row1" ></Card>
+                        <Card style={{  textAlign: 'center', borderColor: 'transparent', elevation: 0 }} className="placeholder2treerow" ></Card>
                         <Card style={{  textAlign: 'center' }} className="newCard" >
                         <Card.Header as="h5"  className="font1">Secondary Risk</Card.Header>
                             <CardGroup>
@@ -385,7 +385,7 @@ export function Page1(props){
                             </CardGroup>
                         </Card> 
                 </Row>
-                <Row className="row1">
+                <Row className="treerow">
                     <Card style={{  textAlign: 'center', borderColor: 'transparent', elevation: 0 }} className="placeholder" ></Card>
                     <Card style={{ textAlign: 'center' }} className="newCard2" >
                         <Card.Header as="h5" style={{fontSize: 10}}>Primary Loss Event Frequency</Card.Header>
@@ -490,7 +490,7 @@ export function Page1(props){
                                 </CardGroup>
                              </Card>
                     </Row>
-                    <Row className="row1">
+                    <Row className="treerow">
                                     <Card style={{  textAlign: 'center' }} className="newCard3" >
                                     <Card.Header as="h5"  className="font1">Threat Event Frequency</Card.Header>
                                         <CardGroup>
@@ -548,7 +548,7 @@ export function Page1(props){
                                         </Card>
                                     </Card>
                     </Row>
-                    <Row className="row1">
+                    <Row className="treerow">
                         <Card style={{ textAlign: 'center', borderColor: 'transparent', elevation: 0 }} className="placeholder" ></Card>
                         <Card style={{  textAlign: 'center' }} className="newCard3">
                         <Card.Header as="h5"  style={{fontSize: 13}}>Control Frequency Avoidance</Card.Header>
@@ -617,7 +617,7 @@ export function Page1(props){
                                 </CardGroup>
                               </Card>
                     </Row>
-                    <Row className="row1">
+                    <Row className="treerow">
                          <Card style={{ textAlign: 'center', borderColor: 'transparent', elevation: 0 }} className="placeholder" ></Card>
                             <Card style={{  textAlign: 'center' }} className="newCard3">
                                 <Card.Header as="h5"  style={{fontSize: 11}}>Probability of Action Deterrence</Card.Header>
